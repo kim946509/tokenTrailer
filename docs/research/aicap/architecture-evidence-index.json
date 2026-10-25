@@ -1,0 +1,140 @@
+{
+  "source_sha256": "232aa2d803e9cc551027d0996637122e6c4f3845d1a86546c3cfd4be32f02b3a",
+  "location_unit": "PE file byte offsets",
+  "evidence": [
+    {
+      "value": "lifetime_tokens",
+      "offset": "0x941e94"
+    },
+    {
+      "value": "daily_usage_buckets",
+      "offset": "0x941f7b"
+    },
+    {
+      "value": "stats_as_of",
+      "offset": "0x94201e"
+    },
+    {
+      "value": "CODEX_HOME",
+      "offset": "0x942124"
+    },
+    {
+      "value": "CredReadW",
+      "offset": "0xa0b2ee"
+    },
+    {
+      "value": "CredWriteW",
+      "offset": "0xa0b2fa"
+    },
+    {
+      "value": "Backup file does not use passphrase encryption.",
+      "offset": "0x8eb9e6"
+    },
+    {
+      "value": "AICap-backup-%Y-%m-%d-%H-%M-%S.age",
+      "offset": "0x8eba49"
+    },
+    {
+      "value": "rollback failed",
+      "offset": "0x8eb99c"
+    },
+    {
+      "value": "application/x-protobuf",
+      "offset": "0x8eb4c4"
+    },
+    {
+      "value": "https://aicap-relay.ptsoo.cloud/v1/analytics",
+      "offset": "0x8eb498"
+    },
+    {
+      "value": "https://aicap-relay.ptsoo.cloud/v1/bug-report",
+      "offset": "0x8eafe7"
+    },
+    {
+      "value": "Detected fresh usage window",
+      "offset": "0x87dc61"
+    },
+    {
+      "value": "https://aistor-archive.ptsoo.cloud/public-release/AICap/latest.json",
+      "offset": "0x8ccba8"
+    }
+  ],
+  "frontend_inventory": [
+    {
+      "path": "assets/vendor-ChqFcjge.js",
+      "decoded_bytes": 67252,
+      "decoded_sha256": "67ae17a674c79f5411d9e6c720d1b5173f98ddf0f5de3ed3b6046ea96a854e15"
+    },
+    {
+      "path": "assets/vendor-BlGEn4xg.js",
+      "decoded_bytes": 2933,
+      "decoded_sha256": "02c46ff6073269aa51de89f176717ecbd76df443f0c7bd12f50a2342031180fd"
+    },
+    {
+      "path": "assets/index-uWVt0c47.css",
+      "decoded_bytes": 58383,
+      "decoded_sha256": "e100973efa2276e0f2843ef9009134b474f4702b3a6906bedfc4343ff95a6007"
+    },
+    {
+      "path": "assets/vendor-Cm0VEhql.js",
+      "decoded_bytes": 17527,
+      "decoded_sha256": "85f6b1c4549c5882ac350d9386fbea32a9929fea81db7575c33ba10236347ae2"
+    },
+    {
+      "path": "assets/vendor-CG3TBf2P.js",
+      "decoded_bytes": 84985,
+      "decoded_sha256": "01a4378e9b1326b77dc7776e1f68a2a9fafdb42c32e38d21f80a699371f39654"
+    },
+    {
+      "path": "assets/vendor-C9yJqP8A.js",
+      "decoded_bytes": 449,
+      "decoded_sha256": "36a69b7ae32ac4b4f3e830dbfd4c368d493b3affc81fc1f747d01cfa51630198"
+    },
+    {
+      "path": "assets/rolldown-runtime-CNC7AqOf.js",
+      "decoded_bytes": 879,
+      "decoded_sha256": "d4a36920c7bab6ec97d0bdc5d1233622f28fe010198ca32bcdd80c8cb6b64aae"
+    },
+    {
+      "path": "assets/index-BbaXIiVU.js",
+      "decoded_bytes": 316532,
+      "decoded_sha256": "a3d727cc6216062b6493d48cc43165dee98cd523c172f2569e1d309db0e81f41"
+    },
+    {
+      "path": "assets/vendor-2B-cwPnu.js",
+      "decoded_bytes": 48814,
+      "decoded_sha256": "a5b7e76f77c631d808aecfe5e6d96f732d6dae48aee3a198207a0971f963ed32"
+    },
+    {
+      "path": "assets/vendor-D9tmuG2K.js",
+      "decoded_bytes": 224,
+      "decoded_sha256": "e4399b87a3ffa974fc6571c81d65baf445685a8d389eb26f19ffb8d9756fc002"
+    },
+    {
+      "path": "assets/vendor-Ackbxowj.js",
+      "decoded_bytes": 9004,
+      "decoded_sha256": "2c8da3c7178fc7d036ac3c0b3e2ba6ce8d6bcf91c22395397117e56a2a331b46"
+    },
+    {
+      "path": "assets/vendor-B243apkn.js",
+      "decoded_bytes": 165740,
+      "decoded_sha256": "eb8bf9db00c7720fbc6fdcc1f2f94353cd43e55548f42e1e65794085d74c3b20"
+    },
+    {
+      "path": "assets/vendor-7P53qPd4.js",
+      "decoded_bytes": 34522,
+      "decoded_sha256": "92d76679595fea2fda7d208748912015c6eacee881aeb2c7e0835b8b4a203578"
+    },
+    {
+      "path": "assets/vendor-BHR7QTjk.js",
+      "decoded_bytes": 43269,
+      "decoded_sha256": "307608d4450882af49fff323a988ddeb2748e1e58bc7976a4f872ac8c6fa0558"
+    },
+    {
+      "path": "assets/vendor-pP8WyNd3.js",
+      "decoded_bytes": 183,
+      "decoded_sha256": "2235f4e01a0e7a30b2f16a6030eba21c493f198f11ef4cfe6312c69c795f8b19"
+    }
+  ],
+  "limits": "Only literal presence. IPC call reachability documented separately in architecture-report.md; no account secrets or app runtime read."
+}

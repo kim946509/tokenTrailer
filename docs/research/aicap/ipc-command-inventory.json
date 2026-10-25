@@ -1,0 +1,362 @@
+[
+  {
+    "name": "logFrontend",
+    "sourceStart": 2131,
+    "sourceEnd": 2207,
+    "code": "logFrontend:(e,t,n,r)=>w(`log_frontend`,{level:e,message:t,source:n,line:r})"
+  },
+  {
+    "name": "quitApp",
+    "sourceStart": 2208,
+    "sourceEnd": 2233,
+    "code": "quitApp:()=>w(`quit_app`)"
+  },
+  {
+    "name": "analyticsAppUpdateInstallRequested",
+    "sourceStart": 2234,
+    "sourceEnd": 2316,
+    "code": "analyticsAppUpdateInstallRequested:()=>w(`analytics_app_update_install_requested`)"
+  },
+  {
+    "name": "analyticsEnableUsageScheduler",
+    "sourceStart": 2317,
+    "sourceEnd": 2388,
+    "code": "analyticsEnableUsageScheduler:()=>w(`analytics_enable_usage_scheduler`)"
+  },
+  {
+    "name": "analyticsAddProvider",
+    "sourceStart": 2389,
+    "sourceEnd": 2462,
+    "code": "analyticsAddProvider:e=>w(`analytics_add_provider`,{providerProfileId:e})"
+  },
+  {
+    "name": "analyticsRemoveProvider",
+    "sourceStart": 2463,
+    "sourceEnd": 2574,
+    "code": "analyticsRemoveProvider:(e,t,n)=>w(`analytics_remove_provider`,{providerKind:e,providerProfileId:t,planType:n})"
+  },
+  {
+    "name": "sendFeedback",
+    "sourceStart": 2575,
+    "sourceEnd": 2621,
+    "code": "sendFeedback:e=>w(`send_feedback`,{message:e})"
+  },
+  {
+    "name": "openDonationPage",
+    "sourceStart": 2622,
+    "sourceEnd": 2666,
+    "code": "openDonationPage:()=>w(`open_donation_page`)"
+  },
+  {
+    "name": "openFeedbackChat",
+    "sourceStart": 2667,
+    "sourceEnd": 2711,
+    "code": "openFeedbackChat:()=>w(`open_feedback_chat`)"
+  },
+  {
+    "name": "openReleaseNotes",
+    "sourceStart": 2712,
+    "sourceEnd": 2756,
+    "code": "openReleaseNotes:()=>w(`open_release_notes`)"
+  },
+  {
+    "name": "openExternalUrl",
+    "sourceStart": 2757,
+    "sourceEnd": 2806,
+    "code": "openExternalUrl:e=>w(`open_external_url`,{url:e})"
+  },
+  {
+    "name": "getSystemColorMode",
+    "sourceStart": 2807,
+    "sourceEnd": 2856,
+    "code": "getSystemColorMode:()=>w(`get_system_color_mode`)"
+  },
+  {
+    "name": "getSystemLanguage",
+    "sourceStart": 2857,
+    "sourceEnd": 2903,
+    "code": "getSystemLanguage:()=>w(`get_system_language`)"
+  },
+  {
+    "name": "refreshProviderUsage",
+    "sourceStart": 2904,
+    "sourceEnd": 2977,
+    "code": "refreshProviderUsage:e=>w(`refresh_provider_usage`,{providerProfileId:e})"
+  },
+  {
+    "name": "getProviderUsageDataAll",
+    "sourceStart": 2978,
+    "sourceEnd": 3038,
+    "code": "getProviderUsageDataAll:()=>w(`get_provider_usage_data_all`)"
+  },
+  {
+    "name": "startProviderAuth",
+    "sourceStart": 3039,
+    "sourceEnd": 3106,
+    "code": "startProviderAuth:e=>w(`start_provider_auth`,{providerProfileId:e})"
+  },
+  {
+    "name": "completeProviderAuth",
+    "sourceStart": 3107,
+    "sourceEnd": 3191,
+    "code": "completeProviderAuth:(e,t)=>w(`complete_provider_auth`,{providerProfileId:e,code:t})"
+  },
+  {
+    "name": "getProviderAuthStatus",
+    "sourceStart": 3192,
+    "sourceEnd": 3268,
+    "code": "getProviderAuthStatus:e=>w(`get_provider_auth_status`,{providerProfileId:e})"
+  },
+  {
+    "name": "getProviderAuthCredential",
+    "sourceStart": 3269,
+    "sourceEnd": 3353,
+    "code": "getProviderAuthCredential:e=>w(`get_provider_auth_credential`,{providerProfileId:e})"
+  },
+  {
+    "name": "restoreProviderAuth",
+    "sourceStart": 3354,
+    "sourceEnd": 3442,
+    "code": "restoreProviderAuth:(e,t)=>w(`restore_provider_auth`,{providerProfileId:e,credential:t})"
+  },
+  {
+    "name": "getActiveAccountBadges",
+    "sourceStart": 3443,
+    "sourceEnd": 3500,
+    "code": "getActiveAccountBadges:()=>w(`get_active_account_badges`)"
+  },
+  {
+    "name": "isRunningCodexDesktop",
+    "sourceStart": 3501,
+    "sourceEnd": 3556,
+    "code": "isRunningCodexDesktop:()=>w(`is_running_codex_desktop`)"
+  },
+  {
+    "name": "switchCodexAccount",
+    "sourceStart": 3557,
+    "sourceEnd": 3626,
+    "code": "switchCodexAccount:e=>w(`switch_codex_account`,{providerProfileId:e})"
+  },
+  {
+    "name": "previewOpencodeExport",
+    "sourceStart": 3627,
+    "sourceEnd": 3702,
+    "code": "previewOpencodeExport:e=>w(`preview_opencode_export`,{providerProfileId:e})"
+  },
+  {
+    "name": "exportAuthToOpencode",
+    "sourceStart": 3703,
+    "sourceEnd": 3800,
+    "code": "exportAuthToOpencode:(e,t)=>w(`export_auth_to_opencode`,{providerProfileId:e,expectedRevision:t})"
+  },
+  {
+    "name": "consumeProviderUsageReset",
+    "sourceStart": 3801,
+    "sourceEnd": 3919,
+    "code": "consumeProviderUsageReset:(e,t,n)=>w(`consume_provider_usage_reset`,{providerProfileId:e,idempotencyKey:t,creditId:n})"
+  },
+  {
+    "name": "setZAiApiKey",
+    "sourceStart": 3920,
+    "sourceEnd": 3992,
+    "code": "setZAiApiKey:(e,t)=>w(`set_z_ai_api_key`,{providerProfileId:e,apiKey:t})"
+  },
+  {
+    "name": "removeAuth",
+    "sourceStart": 3993,
+    "sourceEnd": 4045,
+    "code": "removeAuth:e=>w(`remove_auth`,{providerProfileId:e})"
+  },
+  {
+    "name": "setAppUpdateAvailableVersion",
+    "sourceStart": 4046,
+    "sourceEnd": 4136,
+    "code": "setAppUpdateAvailableVersion:e=>w(`set_app_update_available_version`,{availableVersion:e})"
+  },
+  {
+    "name": "getAppUpdateAvailableVersion",
+    "sourceStart": 4137,
+    "sourceEnd": 4207,
+    "code": "getAppUpdateAvailableVersion:()=>w(`get_app_update_available_version`)"
+  },
+  {
+    "name": "loadSettings",
+    "sourceStart": 4208,
+    "sourceEnd": 4243,
+    "code": "loadSettings:()=>w(`load_settings`)"
+  },
+  {
+    "name": "getDefaultSettings",
+    "sourceStart": 4244,
+    "sourceEnd": 4292,
+    "code": "getDefaultSettings:()=>w(`get_default_settings`)"
+  },
+  {
+    "name": "createProviderProfile",
+    "sourceStart": 4293,
+    "sourceEnd": 4363,
+    "code": "createProviderProfile:e=>w(`create_provider_profile`,{providerKind:e})"
+  },
+  {
+    "name": "saveSettings",
+    "sourceStart": 4364,
+    "sourceEnd": 4411,
+    "code": "saveSettings:e=>w(`save_settings`,{settings:e})"
+  },
+  {
+    "name": "exportSettingsFile",
+    "sourceStart": 4412,
+    "sourceEnd": 4488,
+    "code": "exportSettingsFile:(e,t)=>w(`export_settings_file`,{directory:e,password:t})"
+  },
+  {
+    "name": "importSettingsFile",
+    "sourceStart": 4489,
+    "sourceEnd": 4560,
+    "code": "importSettingsFile:(e,t)=>w(`import_settings_file`,{path:e,password:t})"
+  },
+  {
+    "name": "isGoogleDriveBackupLogin",
+    "sourceStart": 4561,
+    "sourceEnd": 4623,
+    "code": "isGoogleDriveBackupLogin:()=>w(`is_google_drive_backup_login`)"
+  },
+  {
+    "name": "startGoogleDriveBackupAuth",
+    "sourceStart": 4624,
+    "sourceEnd": 4709,
+    "code": "startGoogleDriveBackupAuth:e=>w(`start_google_drive_backup_auth`,{callbackMessage:e})"
+  },
+  {
+    "name": "completeGoogleDriveBackupAuth",
+    "sourceStart": 4710,
+    "sourceEnd": 4782,
+    "code": "completeGoogleDriveBackupAuth:()=>w(`complete_google_drive_backup_auth`)"
+  },
+  {
+    "name": "logoutGoogleDriveBackup",
+    "sourceStart": 4783,
+    "sourceEnd": 4842,
+    "code": "logoutGoogleDriveBackup:()=>w(`logout_google_drive_backup`)"
+  },
+  {
+    "name": "listGoogleDriveBackups",
+    "sourceStart": 4843,
+    "sourceEnd": 4900,
+    "code": "listGoogleDriveBackups:()=>w(`list_google_drive_backups`)"
+  },
+  {
+    "name": "exportSettingsGoogleDrive",
+    "sourceStart": 4901,
+    "sourceEnd": 4976,
+    "code": "exportSettingsGoogleDrive:e=>w(`export_settings_google_drive`,{password:e})"
+  },
+  {
+    "name": "importSettingsGoogleDrive",
+    "sourceStart": 4977,
+    "sourceEnd": 5065,
+    "code": "importSettingsGoogleDrive:(e,t)=>w(`import_settings_google_drive`,{fileId:e,password:t})"
+  },
+  {
+    "name": "deleteGoogleDriveBackup",
+    "sourceStart": 5066,
+    "sourceEnd": 5135,
+    "code": "deleteGoogleDriveBackup:e=>w(`delete_google_drive_backup`,{fileId:e})"
+  },
+  {
+    "name": "setAutoStartOnBoot",
+    "sourceStart": 5136,
+    "sourceEnd": 5199,
+    "code": "setAutoStartOnBoot:e=>w(`set_auto_start_on_boot`,{isEnabled:e})"
+  },
+  {
+    "name": "isAutoStartOnBootEnabled",
+    "sourceStart": 5200,
+    "sourceEnd": 5263,
+    "code": "isAutoStartOnBootEnabled:()=>w(`is_auto_start_on_boot_enabled`)"
+  },
+  {
+    "name": "hideWidget",
+    "sourceStart": 5264,
+    "sourceEnd": 5295,
+    "code": "hideWidget:()=>w(`hide_widget`)"
+  },
+  {
+    "name": "showWidget",
+    "sourceStart": 5296,
+    "sourceEnd": 5340,
+    "code": "showWidget:(e,t)=>w(`show_widget`,{x:e,y:t})"
+  },
+  {
+    "name": "getWidgetSize",
+    "sourceStart": 5341,
+    "sourceEnd": 5379,
+    "code": "getWidgetSize:()=>w(`get_widget_size`)"
+  },
+  {
+    "name": "setWidgetSize",
+    "sourceStart": 5380,
+    "sourceEnd": 5440,
+    "code": "setWidgetSize:(e,t)=>w(`set_widget_size`,{width:e,height:t})"
+  },
+  {
+    "name": "setWidgetAlwaysOnTop",
+    "sourceStart": 5441,
+    "sourceEnd": 5512,
+    "code": "setWidgetAlwaysOnTop:e=>w(`set_widget_always_on_top`,{isAlwaysOnTop:e})"
+  },
+  {
+    "name": "attachTaskbarWidget",
+    "sourceStart": 5513,
+    "sourceEnd": 5588,
+    "code": "attachTaskbarWidget:(e,t)=>w(`attach_taskbar_widget`,{width:e,monitorId:t})"
+  },
+  {
+    "name": "detachTaskbarWidget",
+    "sourceStart": 5589,
+    "sourceEnd": 5639,
+    "code": "detachTaskbarWidget:()=>w(`detach_taskbar_widget`)"
+  },
+  {
+    "name": "getPrimaryMonitor",
+    "sourceStart": 5640,
+    "sourceEnd": 5686,
+    "code": "getPrimaryMonitor:()=>w(`get_primary_monitor`)"
+  },
+  {
+    "name": "getAvailableMonitors",
+    "sourceStart": 5687,
+    "sourceEnd": 5739,
+    "code": "getAvailableMonitors:()=>w(`get_available_monitors`)"
+  },
+  {
+    "name": "getWidgetMonitor",
+    "sourceStart": 5740,
+    "sourceEnd": 5797,
+    "code": "getWidgetMonitor:e=>w(`get_widget_monitor`,{monitorId:e})"
+  },
+  {
+    "name": "showMainWindow",
+    "sourceStart": 5798,
+    "sourceEnd": 5838,
+    "code": "showMainWindow:()=>w(`show_main_window`)"
+  },
+  {
+    "name": "openSettingsFile",
+    "sourceStart": 5839,
+    "sourceEnd": 5883,
+    "code": "openSettingsFile:()=>w(`open_settings_file`)"
+  },
+  {
+    "name": "openAppConfigFile",
+    "sourceStart": 5884,
+    "sourceEnd": 5931,
+    "code": "openAppConfigFile:()=>w(`open_app_config_file`)"
+  },
+  {
+    "name": "openLogFile",
+    "sourceStart": 5932,
+    "sourceEnd": 5966,
+    "code": "openLogFile:()=>w(`open_log_file`)"
+  }
+]

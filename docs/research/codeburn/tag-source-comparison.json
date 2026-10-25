@@ -1,0 +1,1022 @@
+[
+  {
+    "path": "src/cache-dir.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/types.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/copilot-aiu.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/plans.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/config.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/fetch-utils.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/currency.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/wsl.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/codex-cache.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/cursor-cache.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/cache-refresh-lock.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/data/litellm-snapshot.json",
+    "byte_match": true,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/data/pricing-fallback.json",
+    "byte_match": true,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/models.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/session-cache.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/cache-sweep.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/cursor-import.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/git-origin.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/daily-cache.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/behavioral-weight.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/day-aggregator.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/model-efficiency.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/session-output.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/fs-utils.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/content-utils.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/format.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/math-utils.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/pr-signals.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/path-privacy.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sync/otlp.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/work-units.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sessions-report.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/launcher-homes.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/codex-fork-replay.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/codex-throughput.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/token-estimate.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/codex.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/codex-session-index.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/amp.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/claude.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/vscode-cline-parser.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/cline.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/bash-utils.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/cline-cli.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/codewhale.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/command-code.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/codebuff.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/editor-data-dir.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/context-tree-codex.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/context-tree.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sqlite.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/copilot.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/droid.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/devin.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/dsh.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/gemini.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/hermes-session-ledger.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/hermes.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/ibm-bob.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/session-message.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/sqlite-session-parser.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/kilo-code.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/kiro.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/kimi.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/kimicode.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/lingtai-tui.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/mistral-vibe-unified.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/mistral-vibe.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/mux.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/openclaw.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/openclaude.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/open-design.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/pi.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/qwen.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/quickdesk.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/zerostack.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/grok.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/grokbot.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/provider-issues.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/antigravity.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/warp.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/forge.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/goose.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/cursor.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/vercel-gateway.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/opencode-file-parser.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/opencode.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/cursor-agent.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/crush.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/zcode.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/zed.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/providers/index.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/parse-workers.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/classifier.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/parser.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/project-filter-warnings.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/telemetry-snapshot.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/menubar-json.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/plugins/manifest.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/plugins/keys.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/plugins/loader.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/live-sessions.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/codex-credits.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/peak-hours.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/models-report.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/session-population.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/workflow-insights.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/compare-stats.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/act/backup.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/act/model-defaults.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/act/types.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/optimize.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/cli-date.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/streak.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/granular-history.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/spend-flow.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/usage-aggregator.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/session-count-label.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/ink-win.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/user-timing-guard.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/yield.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/act/journal.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/act/undo.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/text-table.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/act/report.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/act/apply.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/guard/store.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/guard/flags.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/guard/settings.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/guard/usage.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/guard/hooks.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sync/ledger.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/security.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/cursor.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/cursor-sync.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/act/plans.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/act/optimize-apply.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/context-tui.tsx",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/compare-cohorts.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/audit-report.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/session-why.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/session-contributions.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sessions-tui.tsx",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/branch-spend.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/mcp/redact.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/mcp/tables.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/mcp/server.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/doctor.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/antigravity.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/claude.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/codex.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/clinepass.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/commandcode.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/copilot.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/devin.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/gemini.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/grok.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/grokbot.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/kimi.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/zai-plan.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/zai.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/zcode.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/quota/index.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/serve.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/main.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/menubar-installer.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/persistent-codeburn.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/update.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/export.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/billing-filter.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/status-snapshot-semantic.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/period-diff.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/dashboard.tsx",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/model-breakdown.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/context-budget.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/compare.tsx",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/plan-usage.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/overview.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/web-dashboard.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sharing/client.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sharing/pairing.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sharing/identity.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sharing/sanitize.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sharing/store.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sharing/host.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sharing/discovery.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sharing/share-controller.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sharing/share-server.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sharing/share-run.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sharing/prompt.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/act/cli.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/guard/cli.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sync/cli.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sync/discovery.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sync/auth.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sync/credentials.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sync/config.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sync/push.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/plugins/exporter.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sync/consent.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/sync/schedule-installer.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/plugins/cli.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/budget.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  },
+  {
+    "path": "src/antigravity-statusline.ts",
+    "byte_match": false,
+    "lf_normalized_match": true
+  }
+]

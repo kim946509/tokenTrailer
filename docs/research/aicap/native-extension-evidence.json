@@ -1,0 +1,78 @@
+[
+  {
+    "evidence_id": "ev_7d60ebe47920e74ef35512f7379f4f8fde68f4f4a5cdd2f51eee76938af1a415",
+    "operation": "search_strings",
+    "parameters": {
+      "pattern": "fresh usage|do_touch|touch usage|profiles/me|statistics.rs|bug-report|backup.common",
+      "mode": "regex",
+      "case_sensitive": false
+    },
+    "normalized_result": [
+      {
+        "address": "0x1408685e2",
+        "value": "https://chatgpt.com/backend-api/wham/profiles/meC:\\Users\\<upstream-user>\\Desktop\\Dev\\AICap\\libs\\crates\\llm-provider\\src\\openai\\api\\statistics.rs"
+      },
+      {
+        "address": "0x1408ec766",
+        "value": "src\\backup\\common.rs"
+      }
+    ]
+  },
+  {
+    "evidence_id": "ev_8429b8da4b4f1f30b7274a0b19340fbf3e5989f7a2ec1470f07b690407163850",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x1408685e2"
+    },
+    "normalized_result": [
+      "0x1403c3749"
+    ]
+  },
+  {
+    "evidence_id": "ev_7b92fd76a37319ecfb3945508c204c2c31ab388ad33801b321d573a4b0825173",
+    "operation": "resolve_containing_procedure",
+    "parameters": {
+      "address": "0x1403c3749"
+    },
+    "normalized_result": {
+      "query_address": "0x1403c3749",
+      "found": true,
+      "procedure": {
+        "address": "0x1403c3540",
+        "name": "FUN_1403c3540",
+        "classification": {
+          "external": false,
+          "thunk": false,
+          "thunk_target": null,
+          "provenance": "ghidra-function-manager"
+        },
+        "body": {
+          "available": true,
+          "provenance": "ghidra-function-body-address-set",
+          "ranges": [
+            {
+              "start": "0x1403c3540",
+              "end": "0x1403c35db"
+            },
+            {
+              "start": "0x1403c35f1",
+              "end": "0x1403c382a"
+            },
+            {
+              "start": "0x1403c3863",
+              "end": "0x1403c3c48"
+            },
+            {
+              "start": "0x1403c3c82",
+              "end": "0x1403c62fd"
+            }
+          ],
+          "total_bytes": 11576,
+          "span_bytes": 11710,
+          "non_contiguous": true,
+          "contains_entry": true
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "Events": [
+    {
+      "AtMs": 334,
+      "Event": "attached",
+      "ParentMatches": true,
+      "Visible": true
+    },
+    {
+      "AtMs": 3094,
+      "Event": "simulated_child_loss"
+    },
+    {
+      "AtMs": 3283,
+      "Event": "attached",
+      "ParentMatches": true,
+      "Visible": true
+    },
+    {
+      "AtMs": 6536,
+      "Event": "simulated_discovery_unavailable"
+    },
+    {
+      "AtMs": 8679,
+      "Event": "attached",
+      "ParentMatches": true,
+      "Visible": true
+    }
+  ],
+  "AttachmentCount": 3,
+  "CleanupConfirmed": true,
+  "ActualExplorerRestart": false,
+  "ActualLogin": false,
+  "Simulated": true
+}

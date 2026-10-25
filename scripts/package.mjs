@@ -1,0 +1,13 @@
+import { cp, mkdir, rename, writeFile, readFile } from 'node:fs/promises';
+import { join, resolve } from 'node:path';
+const root = resolve(import.meta.dirname, '..');
+const destination = join(root, 'dist', 'TokenTrailer');
+await mkdir(destination, { recursive: true });
+await cp(join(root, 'node_modules', 'electron', 'dist'), destination, { recursive: true });
+await rename(join(destination, 'electron.exe'), join(destination, 'TokenTrailer.exe'));
+const app = join(destination, 'resources', 'app'); await mkdir(app, { recursive: true });
+await cp(join(root, 'src'), join(app, 'src'), { recursive: true });
+const pkg = JSON.parse(await readFile(join(root, 'package.json'), 'utf8')); delete pkg.devDependencies; delete pkg.scripts;
+await writeFile(join(app, 'package.json'), JSON.stringify(pkg, null, 2));
+await writeFile(join(destination, 'README.txt'), 'TokenTrailer.exe를 실행하세요.\r\n전체 폴더를 함께 보관하세요.\r\n설정에서 기록 수집과 한도 조회를 연결하세요.\r\n창을 닫아도 트레이에서 상주합니다. 종료는 트레이 메뉴를 사용하세요.\r\nGemini 실계정과 Windows 복구 행렬은 미검증입니다.\r\n');
+console.log(destination);

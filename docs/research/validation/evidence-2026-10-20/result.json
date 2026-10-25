@@ -1,0 +1,165 @@
+{
+  "TaskbarRect": {
+    "L": 0,
+    "T": 1032,
+    "R": 1920,
+    "B": 1080
+  },
+  "TaskbarExStyle": "00000088",
+  "TaskbarClient": {
+    "L": 0,
+    "T": 0,
+    "R": 1920,
+    "B": 48
+  },
+  "ClientScreenOrigin": {
+    "X": 0,
+    "Y": 1032
+  },
+  "ControlMessages": 1,
+  "SetWindowPos": true,
+  "UpdateWindow": true,
+  "ChildRect": {
+    "L": 8,
+    "T": 1036,
+    "R": 168,
+    "B": 1060
+  },
+  "ChildText": "TT TEST 123K",
+  "ChildStyle": "50000201",
+  "StaticClassStyle": "4088",
+  "WindowThread": 40548,
+  "OwnerProcess": 40588,
+  "CurrentThread": 40548,
+  "Visible": true,
+  "ParentMatches": true,
+  "ClipType": 2,
+  "ClipRect": {
+    "L": -8,
+    "T": -4,
+    "R": 1912,
+    "B": 44
+  },
+  "CloakQueryHresult": 0,
+  "TaskbarCloaked": 0,
+  "PrintWindow": false,
+  "MessagesDispatched": 0,
+  "HitClass": "Shell_TrayWnd",
+  "HitIsProbe": false,
+  "TaskbarChildren": [
+    {
+      "ZOrder": 0,
+      "Class": "Static",
+      "IsProbe": true,
+      "Visible": true,
+      "Rect": {
+        "L": 8,
+        "T": 1036,
+        "R": 168,
+        "B": 1060
+      }
+    },
+    {
+      "ZOrder": 1,
+      "Class": "Windows.UI.Composition.DesktopWindowContentBridge",
+      "IsProbe": false,
+      "Visible": true,
+      "Rect": {
+        "L": 0,
+        "T": 1032,
+        "R": 1920,
+        "B": 1080
+      }
+    },
+    {
+      "ZOrder": 2,
+      "Class": "Windows.UI.Core.CoreWindow",
+      "IsProbe": false,
+      "Visible": false,
+      "Rect": {
+        "L": 0,
+        "T": 1032,
+        "R": 65535,
+        "B": 66567
+      }
+    },
+    {
+      "ZOrder": 3,
+      "Class": "Start",
+      "IsProbe": false,
+      "Visible": false,
+      "Rect": {
+        "L": 495,
+        "T": 1032,
+        "R": 540,
+        "B": 1080
+      }
+    },
+    {
+      "ZOrder": 4,
+      "Class": "TrayDummySearchControl",
+      "IsProbe": false,
+      "Visible": true,
+      "Rect": {
+        "L": 0,
+        "T": 1032,
+        "R": 0,
+        "B": 1032
+      }
+    },
+    {
+      "ZOrder": 5,
+      "Class": "TrayNotifyWnd",
+      "IsProbe": false,
+      "Visible": true,
+      "Rect": {
+        "L": 1642,
+        "T": 1032,
+        "R": 1920,
+        "B": 1080
+      }
+    },
+    {
+      "ZOrder": 6,
+      "Class": "ReBarWindow32",
+      "IsProbe": false,
+      "Visible": true,
+      "Rect": {
+        "L": 540,
+        "T": 1032,
+        "R": 1204,
+        "B": 1080
+      }
+    }
+  ],
+  "ClassStyleComparison": [
+    {
+      "ClassStyle": 0,
+      "ExStyle": 0,
+      "LayeredApplied": false,
+      "PaintCalls": 1,
+      "ParentMatches": true,
+      "Visible": true,
+      "Messages": 0
+    },
+    {
+      "ClassStyle": 128,
+      "ExStyle": 0,
+      "LayeredApplied": false,
+      "PaintCalls": 1,
+      "ParentMatches": true,
+      "Visible": true,
+      "Messages": 0
+    },
+    {
+      "ClassStyle": 0,
+      "ExStyle": 524288,
+      "LayeredApplied": true,
+      "PaintCalls": 1,
+      "ParentMatches": true,
+      "Visible": true,
+      "Messages": 0
+    }
+  ],
+  "CleanupConfirmed": true
+}
